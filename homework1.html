@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="firststyle.css">
+		<meta name="description" content="HomeWork1">
+		<meta name="keywords" content="HTML,homework1,netid">
+		<meta name="author" content="Geetha Manukonda">
+		<meta charset="UTF-8">
+		<style>
+		#div1 {width:350px;height:100px;padding:10px;border:1px solid #aaaaaa;}
+		</style>
+
+		<title> Geetha Reddy Manukonda homework 1</title>
+		<script
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">		
+</script>
+<script>
+		$(document).ready(function(){
+		$("#showeq").hide();
+		$("#showwe").hide();
+		$("#showts").hide();
+		$("#showpub").hide();
+		$("#showam").hide();
+		$("#showit").hide();
+		
+		$("#hideeq").click(function(){
+		$("#EQTABLE").hide();
+		$("#hideeq").hide();
+		$("#showeq").show();
+		});
+
+		$("#showeq").click(function(){
+		$("#EQTABLE").show();
+		$("#hideeq").show();
+		$("#showeq").hide();
+		});
+		
+		$("#hidewe").click(function(){
+		$("#we").hide();
+		$("#hidewe").hide();
+		$("#showwe").show();
+		});
+
+		$("#showwe").click(function(){
+		$("#we").show();
+		$("#hidewe").show();
+		$("#showwe").hide();
+		});
+		
+		$("#hidets").click(function(){
+		$("#ts").hide();
+		$("#hidets").hide();
+		$("#showts").show();
+		});
+
+		$("#showts").click(function(){
+		$("#ts").show();
+		$("#hidets").show();
+		$("#showts").hide();
+		});
+
+		$("#hidepub").click(function(){
+		$("#pub").hide();
+		$("#hidepub").hide();
+		$("#showpub").show();
+		});
+
+		$("#showpub").click(function(){
+		$("#pub").show();
+		$("#hidepub").show();
+		$("#showpub").hide();
+		});
+
+		$("#hideam").click(function(){
+		$("#am").hide();
+		$("#hideam").hide();
+		$("#showam").show();
+		});
+
+		$("#showam").click(function(){
+		$("#am").show();
+		$("#hideam").show();
+		$("#showam").hide();
+		});
+		
+		$("#hideit").click(function(){
+		$("#it").hide();
+		$("#hideit").hide();
+		$("#showit").show();
+		});
+
+		$("#showit").click(function(){
+		$("#it").show();
+		$("#hideit").show();
+		$("#showit").hide();
+		});		
+		
+		alert("Welcome!!! Page loaded succefully!!!");
+		});
+</script>
+<script>
+		function changeBG() {
+		alert("Changing Back Ground Color!!!");
+		document.getElementById("mainbody").style.backgroundColor = "#e6f2ff";
+		}
+		
+		function revertBG() {
+		alert("Reverting back the Back Ground Color!!!");
+		document.getElementById("mainbody").style.backgroundColor = "#FAD987";
+		}
+</script>
+
+	</head>
+	<body id="mainbody">
+
+<headertable style="width:240px; height:180px">
+				<tr>
+				  <td><img src = "image1.jpg" height="180" width="245"/> </td>
+ 				  <td><img src = "image2.jpg" height="180" width="245"/> </td>
+ 				  <td><img src = "image3.jpg" height="180" width="245"/> </td>
+ 				  <td><img src = "image4.jpg" height="180" width="260" /> </td>
+ 				  <td><img src = "image5.jpg" height="180" width="240"/> </td>
+				</tr>
+				
+				  
+</headertable>
+
+		<h1>Geetha Manukonda <h2> <form1 method="get" action="#"> <input type="search" id="search-box" ><img src = "img7.jpg" height="30" width="30" id="search-box"/> </form1> </h2></h1>
+ 
+		<section>
+		  <h1><button id=hideam>-</button><button id=showam>+</button> About Me</h1>
+		  <p id="am">I am an MS graduate computer science student of information and technology, currently working as Admin for Quest diagnostics and also pursing my second masters in Harrisburg University.
+		  </br></br><a href="MoreInfo.html">For More Info</a></p>
+		</section>
+
+		<aside >
+		     <h4><button id=hideit>-</button><button id=showit>+</button> <i>Information Technology</i></h4>
+		    <p id=it>Information Technology is an emerging nice field of study in computer science, dealing with Information systems, network security and communications</p>
+		</aside>
+
+		 <article> 
+		 <h1><button id=hidewe>-</button><button id=showwe>+</button>  Work Experience</h1>
+		<p id="we">
+		Experience in Middleware Administration providing support for development, testing, Staging and production environments.
+		Experience in deploying the applications on clustered and standalone Middleware Servers and maintaining Load balancing, failover, high availability and session replication.
+		Administration skills on linux.</p>
+		</article>		
+		
+		<section id="EQ">
+		   <header>
+		     <h1><button id=hideeq>-</button><button id=showeq>+</button>  Educational Qualifications</h1>
+		   </header>
+			<table border="1" style="width:300px" id="EQTABLE">
+				<tr>
+				  <td><strong>Degree</strong></td>
+				  <td><strong>School</strong></td>		
+				  <td><strong>GPA</strong></td>
+				</tr>
+				<tr>
+				  <td>MS</td>
+				  <td><a href="http://www.fresnostate.edu/" >CSU</a></td>		
+				  <td>3.34</td>
+				</tr>
+				<tr>
+				  <td>B.Tech</td>
+				  <td><a href="http://www.jntu.edu.in/" >JNTU  HYD</a></td>		
+				  <td>3.5</td>
+				</tr>
+				<tr>
+				  <td>High School</td>
+				  <td><a href="http://www.krishnaveni.com/" >KSTL</a></td>	
+				  <td>3.5</td>
+				</tr>
+			</table>
+
+		</section>
+
+		<section>
+		   <header>
+		 	 <h1><button id=hidets>-</button><button id=showts>+</button>  Technical Skills</h1>
+		   </header>
+		<ul id="ts">
+  			  <li><strong> Technical skills </strong>:All middleware platforms</li>
+			  <li><strong>Operating Systems</strong>:Windows,Linux,MAC </li>
+			  <li><strong>Tools</strong>:BMC, F5, HPSM, Wily Intorcope</li>
+		</ul>
+		</section>
+		
+			<section>
+		   <header>
+		 	 <h1><button id=hidepub>-</button><button id=showpub>+</button>  Publications</h1>
+		   </header>
+			<dl id="pub">
+  				<dt><strong>E-Nose</strong></dt>
+				    <dd>An artificial intelligence technology, published at MallReddy Eng collg</dd>
+				<dt><strong>VO-WiFi</strong></dt>
+				    <dd>A network based technology, preseted at GITAM University</dd>
+			</dl>	
+		</section>
+		<header>
+		 	 <h1>Feedback</h1>
+		   </header>
+	
+		 <p>Link to the feedback form <a href="form.html">Feedback</a></p><br/>
+		 <header>
+		 	 <h1>Study of Interest</h1>
+		   </header>
+		 <p>Link to the HTML Site: <a href="http://www.w3schools.com/html/">HTML</a></p>
+		 <p>Link to the CSS  Site: <a href="http://www.w3schools.com/css/">CSS</a></p><br/>
+
+		<footer>
+		  <p>Link to My Contact information:<a href="ContactInfo.html">Contact information:</a></p>
+		  <p>Contact Number : 4259224831</p>
+		  <p>E-Mail <a href="mailto:geetha.Manukonda@gmail.com">geetha.Manukonda@gmail.com</a></p>
+		</footer>
+		<button id="changebg" onclick="changeBG()">Change BG color</button>
+		<button id="revertbg" onclick="revertBG()">Revert BG color</button>
+	</body>
+
+</html>

@@ -1,0 +1,118 @@
+
+<html>
+<head>
+	
+<link rel="stylesheet" type="text/css" href="firststyle.css">
+</head>
+
+<body>
+<form name="feedback" method="get" action="feedbck.jsp">
+<table width="1150px">
+
+<tr>
+ <td valign="top">
+  <label for="first_name">Name</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="lastname" id="lastname" maxlength="50" size="30">
+ </td>
+</tr>
+
+<tr>
+ <td valign="top">
+  <label for="sex">Sex</label>
+ </td>
+ <td valign="top">
+  <input type="radio" name="sex" value="male">Male<br>
+  <input type="radio" name="sex" value="female">Female
+ </td>
+ 
+</tr>
+
+
+ 
+<tr>
+ <td valign="top">
+  <label for="Edu">Educational Qualification, select all that apply</label>
+ </td>
+ <td valign="top">
+  <input type="checkbox" name="ms" value="MS">MS<br>
+   <input type="checkbox" name="b.Tech" value="B.Tech">B.tech<br>
+ </td>
+ 
+</tr>
+
+<tr>
+ <td valign="top">
+  <label for="email">Email Address</label>
+ </td>
+ <td valign="top">
+ <input type="email" id="email">
+ </td>
+ 
+</tr>
+
+
+
+<tr>
+ <td valign="top">
+  <label for="DOB">Date Of Birth</label>
+ </td>
+ <td valign="top">
+  <input type="date" id="bday">
+ </td>
+ 
+</tr>
+
+<tr>
+ <td valign="top">
+  <label for="Rating">Please rate my homepage ,1 being the best rating</label>
+ </td>
+ <td valign="top">
+  <input type="number" id="qty" min="1" max="5">
+ </td>
+ 
+</tr>
+
+
+<tr>
+ <td valign="top">
+  <label for="url">Your homepage URL</label>
+ </td>
+ <td valign="top">
+  <input type="url" id="homepage">
+ </td>
+ 
+</tr>
+
+
+<tr>
+ <td valign="top">
+  <label for="time">A convinient date and tie time to contact you.</label>
+ </td>
+ <td valign="top">
+
+	<input type="date" id="day">  <input type="time" id="usr_time">
+ </td>
+ 
+</tr>
+
+
+<tr>
+ <td valign="top">
+  <label for="suggestions">Suggestions</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">  <button type="reset" value="Reset">Reset</button> 
+ </td>
+</tr>
+</table>
+</form>
+</body>
+</html>

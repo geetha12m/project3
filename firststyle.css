@@ -1,0 +1,87 @@
+body {background-color:#FAD987; }
+
+h1{text-decoration:underline; font-size:18px; }
+h2{font-size:18px; }
+h4{text-decoration:underline; font-size:18px; }
+
+ul{list-style-type: square;}
+
+ol{list-style-type: numeric;}
+
+td
+{
+padding:18px;
+background-color:lightgrey;
+}
+
+table
+{
+border:3px solid black;
+}
+
+headertable
+{
+border:0px;
+cellspacng:0px;
+cellpadding:0px;
+}
+
+#qty
+{
+text-align:center;
+color:green;
+}
+
+#bday
+{
+text-align:center;
+color:orange;
+}
+
+#homepage
+{
+text-align:center;
+color:orange;
+}
+
+
+#day
+{
+text-align:center;
+color:orange;
+}
+
+#usr_time
+{
+text-align:center;
+color:orange;
+}
+
+div{
+    float:left;
+    margin-right:5px;
+}
+
+div > img{
+   height:50%;
+    width:50%;
+}
+
+#email
+{
+text-align:center;
+color:darkmagenta;
+font-style:italic;
+}
+
+#search-box{
+    float:right;
+}
+
+form1{
+        overflow: auto;
+    height: 50px;
+width: 50px;
+    padding:5px 5px 0;
+}
+
